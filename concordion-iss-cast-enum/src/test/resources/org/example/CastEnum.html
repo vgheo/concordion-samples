@@ -3,6 +3,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
+	
+	<div concordion:example="example1">
+	<h1>Example 1</h1>
+	
 	<p>
 	   Should be able to use <span concordion:set="#color">RED</span>
 	   to <span concordion:execute="doStuff(#color)">do stuff</span>.
@@ -10,6 +14,20 @@
  	
  	<p>Should be able to <span concordion:execute='var1=#color'>set var1 public field</span></p>
  	
- 	<p>Should be able to <span concordion:execute='var2=#color'>set var2 via setter</span></p> 
+ 	<p>Should be able to <span concordion:execute='var2=#color'>set var2 via setter</span></p>
+ 	</div>
+ 	
+ 	
+ 	<div concordion:example="workarounds">
+ 	<h1>workarounds</h1>
+ 	<a href="https://commons.apache.org/proper/commons-ognl/language-guide.html">OGNL</a>
+ 	 <p>Should be able to <span concordion:execute='doStuff(@org.example.Color@RED)'>call method with enum literal</span></p>
+ 	 
+	<p>
+	   Should be able to use <span concordion:set="#color">GREEN</span>
+	   to <span concordion:execute="doStuff(@org.example.Color@valueOf(#color))">do stuff</span>.
+ 	</p>
+ 	</div>
+ 	 
 </body>
 </html>

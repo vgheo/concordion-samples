@@ -17,6 +17,7 @@ public class CastEnumFixture {
 	
 	public void doStuff(Color c) {
 		// stuff here
+		System.out.println("do stuff : "+c);
 	}
 
 
