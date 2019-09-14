@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<calcChain
+	xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+	<c r="B10" i="1" l="1" />
+	<c r="C10" i="1" />
+	<c r="D10" i="1" />
+	<c r="E10" i="1" />
+	<c r="B11" i="1" />
+	<c r="C11" i="1" />
+	<c r="D11" i="1" />
+	<c r="E11" i="1" />
+	<c r="B12" i="1" />
+	<c r="C12" i="1" />
+	<c r="D12" i="1" />
+	<c r="E12" i="1" />
+	<c r="B13" i="1" />
+	<c r="C13" i="1" />
+	<c r="D13" i="1" />
+	<c r="E13" i="1" />
+	<c r="B14" i="1" />
+	<c r="C14" i="1" />
+	<c r="D14" i="1" />
+	<c r="E14" i="1" />
+	<c r="B15" i="1" />
+	<c r="C15" i="1" />
+	<c r="D15" i="1" />
+	<c r="E15" i="1" />
+	<c r="B16" i="1" />
+	<c r="C16" i="1" />
+	<c r="D16" i="1" />
+	<c r="E16" i="1" />
+</calcChain>

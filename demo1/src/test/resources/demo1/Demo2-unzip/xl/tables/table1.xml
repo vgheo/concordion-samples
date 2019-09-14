@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<table
+	xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+	id="1" name="function" displayName="function" ref="B8:C11"
+	headerRowCount="1" totalsRowCount="0" totalsRowShown="0">
+	<tableColumns count="2">
+		<tableColumn id="1" name="Input" />
+		<tableColumn id="2" name="Output" />
+	</tableColumns>
+</table>

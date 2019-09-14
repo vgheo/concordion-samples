@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst
+	xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+	count="13" uniqueCount="12">
+	<si>
+		<t>Taxi Fare Calculator</t>
+	</si>
+	<si>
+		<t>Distance</t>
+	</si>
+	<si>
+		<t>Flat Rate</t>
+	</si>
+	<si>
+		<t>Cost per mile</t>
+	</si>
+	<si>
+		<t>over the first</t>
+	</si>
+	<si>
+		<t>miles</t>
+	</si>
+	<si>
+		<t>from then on</t>
+	</si>
+	<si>
+		<t>Flat Fee</t>
+	</si>
+	<si>
+		<t>First Cost</t>
+	</si>
+	<si>
+		<t>Second Cost</t>
+	</si>
+	<si>
+		<t>Total Cost</t>
+	</si>
+	<si>
+		<t>Given a Fare Calculator with the above parameters, the cost for
+			various distances is shown below:</t>
+	</si>
+</sst>

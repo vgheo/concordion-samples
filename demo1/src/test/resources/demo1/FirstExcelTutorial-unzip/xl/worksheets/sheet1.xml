@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet
+	xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"
+	xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+	xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing"
+	xmlns:x14="http://schemas.microsoft.com/office/spreadsheetml/2009/9/main"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="x14ac"
+	xmlns:x14ac="http://schemas.microsoft.com/office/spreadsheetml/2009/9/ac">
+	<dimension ref="A1:E16" />
+	<sheetViews>
+		<sheetView tabSelected="1" workbookViewId="0">
+			<selection activeCell="D24" sqref="D24" />
+		</sheetView>
+	</sheetViews>
+	<sheetFormatPr defaultColWidth="11"
+		defaultRowHeight="15.75" x14ac:dyDescent="0.25" />
+	<cols>
+		<col min="1" max="1" width="15.5" customWidth="1" />
+		<col min="2" max="2" width="13.625" customWidth="1" />
+		<col min="3" max="3" width="15.125" customWidth="1" />
+		<col min="4" max="4" width="15.5" customWidth="1" />
+		<col min="5" max="5" width="20.875" customWidth="1" />
+	</cols>
+	<sheetData>
+		<row r="1" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A1" t="s">
+				<v>0</v>
+			</c>
+		</row>
+		<row r="3" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A3" t="s">
+				<v>2</v>
+			</c>
+			<c r="B3" s="1">
+				<v>1</v>
+			</c>
+		</row>
+		<row r="4" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A4" t="s">
+				<v>3</v>
+			</c>
+			<c r="B4" s="1">
+				<v>0.6</v>
+			</c>
+			<c r="C4" t="s">
+				<v>4</v>
+			</c>
+			<c r="D4">
+				<v>10</v>
+			</c>
+			<c r="E4" t="s">
+				<v>5</v>
+			</c>
+		</row>
+		<row r="5" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A5" t="s">
+				<v>3</v>
+			</c>
+			<c r="B5" s="1">
+				<v>0.3</v>
+			</c>
+			<c r="C5" t="s">
+				<v>6</v>
+			</c>
+		</row>
+		<row r="6" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="B6" s="1" />
+		</row>
+		<row r="7" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A7" s="4" t="s">
+				<v>11</v>
+			</c>
+			<c r="B7" s="4" />
+			<c r="C7" s="4" />
+			<c r="D7" s="4" />
+			<c r="E7" s="4" />
+		</row>
+		<row r="9" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A9" t="s">
+				<v>1</v>
+			</c>
+			<c r="B9" t="s">
+				<v>7</v>
+			</c>
+			<c r="C9" t="s">
+				<v>8</v>
+			</c>
+			<c r="D9" t="s">
+				<v>9</v>
+			</c>
+			<c r="E9" t="s">
+				<v>10</v>
+			</c>
+		</row>
+		<row r="10" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A10">
+				<v>0</v>
+			</c>
+			<c r="B10" s="1">
+				<f t="shared" ref="B10:B16" si="0">Flat_Rate</f>
+				<v>1</v>
+			</c>
+			<c r="C10" s="5">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>0</v>
+			</c>
+			<c r="D10" s="5">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>0</v>
+			</c>
+			<c r="E10" s="5">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>1</v>
+			</c>
+		</row>
+		<row r="11" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A11">
+				<v>3</v>
+			</c>
+			<c r="B11" s="1">
+				<f t="shared" si="0" />
+				<v>1</v>
+			</c>
+			<c r="C11" s="5">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>1.7999999999999998</v>
+			</c>
+			<c r="D11" s="5">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>0</v>
+			</c>
+			<c r="E11" s="5">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>2.8</v>
+			</c>
+		</row>
+		<row r="12" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A12">
+				<v>6</v>
+			</c>
+			<c r="B12" s="1">
+				<f t="shared" si="0" />
+				<v>1</v>
+			</c>
+			<c r="C12" s="5">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>3.5999999999999996</v>
+			</c>
+			<c r="D12" s="5">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>0</v>
+			</c>
+			<c r="E12" s="5">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>4.5999999999999996</v>
+			</c>
+		</row>
+		<row r="13" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A13">
+				<v>9</v>
+			</c>
+			<c r="B13" s="1">
+				<f t="shared" si="0" />
+				<v>1</v>
+			</c>
+			<c r="C13" s="5">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>5.3999999999999995</v>
+			</c>
+			<c r="D13" s="5">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>0</v>
+			</c>
+			<c r="E13" s="5">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>6.3999999999999995</v>
+			</c>
+		</row>
+		<row r="14" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A14" s="2">
+				<v>12</v>
+			</c>
+			<c r="B14" s="3">
+				<f t="shared" si="0" />
+				<v>1</v>
+			</c>
+			<c r="C14" s="6">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>6</v>
+			</c>
+			<c r="D14" s="6">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>0.6</v>
+			</c>
+			<c r="E14" s="6">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>7.6</v>
+			</c>
+		</row>
+		<row r="15" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A15" s="2">
+				<v>20</v>
+			</c>
+			<c r="B15" s="3">
+				<f t="shared" si="0" />
+				<v>1</v>
+			</c>
+			<c r="C15" s="6">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>6</v>
+			</c>
+			<c r="D15" s="6">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>3</v>
+			</c>
+			<c r="E15" s="5">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>10</v>
+			</c>
+		</row>
+		<row r="16" spans="1:5" x14ac:dyDescent="0.25">
+			<c r="A16" s="2">
+				<v>25</v>
+			</c>
+			<c r="B16" s="3">
+				<f t="shared" si="0" />
+				<v>1</v>
+			</c>
+			<c r="C16" s="6">
+				<f>MIN(LowMiles,Table1[[#This Row],[Distance]])*CostPerMile</f>
+				<v>6</v>
+			</c>
+			<c r="D16" s="6">
+				<f>MAX(0, Table1[[#This Row],[Distance]]-LowMiles)*CostPerMileHigh
+				</f>
+				<v>4.5</v>
+			</c>
+			<c r="E16" s="5">
+				<f>Table1[[#This Row],[Flat Fee]]+Table1[[#This Row],[First
+					Cost]]+Table1[[#This Row],[Second Cost]]</f>
+				<v>11.5</v>
+			</c>
+		</row>
+	</sheetData>
+	<mergeCells count="1">
+		<mergeCell ref="A7:E7" />
+	</mergeCells>
+	<pageMargins left="0.75" right="0.75" top="1" bottom="1"
+		header="0.5" footer="0.5" />
+	<pageSetup paperSize="9" orientation="portrait"
+		horizontalDpi="4294967292" verticalDpi="4294967292" r:id="rId1" />
+	<legacyDrawing r:id="rId2" />
+	<tableParts count="1">
+		<tablePart r:id="rId3" />
+	</tableParts>
+	<extLst>
+		<ext uri="{64002731-A6B0-56B0-2670-7721B7C09600}"
+			xmlns:mx="http://schemas.microsoft.com/office/mac/excel/2008/main">
+			<mx:PLV Mode="0" OnePage="0" WScale="0" />
+		</ext>
+	</extLst>
+</worksheet>

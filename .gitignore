@@ -1,0 +1,6 @@
+
+# java debug temporary
+.attach_*
+
+# libreoffice locks
+.~lock.*#
