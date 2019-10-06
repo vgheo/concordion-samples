@@ -1,4 +1,4 @@
-package demo1;
+package org.example;
 
 import org.concordion.api.extension.Extensions;
 import org.concordion.api.option.ConcordionOptions;
